@@ -1,0 +1,32 @@
+
+fieldset {
+background-color:rgb(255,246,205);	
+border:1px solid rgb(233,69,0);
+margin:10px 0px 30px 2.5%;
+width:70%;
+
+}
+
+
+#top {
+    background-color:rgb(109, 211, 252);	
+    border:1px solid rgb(261, 188, 238);
+    margin:10px 0px 30px 2.5%;
+    width:33%;
+}
+    
+#nu 
+{
+background-color:rgb(261, 188, 238);	
+border:1px solid rgb(61, 188, 238);
+margin:10px 0px 30px 2.5%;
+width:50%;
+}
+    
+#eu
+{
+background-color:rgb(261, 188, 238);	
+border:1px solid rgb(61, 188, 238);
+margin:10px 0px 30px 2.5%;
+width:50%;
+}

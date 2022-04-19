@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form Example 1</title>
+      <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+
+<form name = "mainFrom" onsubmit="return false">
+    
+  <fieldset id="top">
+
+    <legend>Selection</legend>
+
+    <input type="button" value="New User" onclick="selectiona()"/>
+
+    <br/>
+
+    <input type="button" value="Existing User" onclick="selectionb()"/>
+
+  </fieldset>
+  
+  <fieldset id="nu">
+
+    <legend>New User</legend>
+  
+    <label for="nusername"> UserName:&nbsp;</label> 
+    <input name="nusername" id="nusername" />
+  
+    &emsp;&emsp;&nbsp;
+        
+    <label for="npassword">Passsword:&nbsp;&thinsp;&thinsp;&thinsp;&thinsp;</label>
+    <input name="npassword" id="npassword" />
+  
+    <br/>
+  
+    <label for="city">City:&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input name="city" id="city" />
+        
+  
+    &emsp;&emsp;&nbsp;
+  
+    <label for="state" >State (abbr.):&nbsp;</label>
+    <input name="state" id="state" />
+  
+    <br>      <br/>
+  
+    <input type="submit" value="Login" onclick="formSubmitNewUser()">
+        
+  </fieldset>
+  
+  <fieldset id="eu">
+  
+    <legend>Existing User</legend>
+    
+    <label for="username"> UserName:&nbsp;</label> 
+    <input name="username" id="username" />
+    
+    &emsp;&emsp;&nbsp;
+          
+    <label for="password">Passsword:&nbsp;&thinsp;&nbsp;&thinsp;</label>
+    <input name="password" id="password" />
+  
+    <br>      <br/>
+    
+    <input type="submit" value="Login" onclick="formSubmitExitUser()">
+          
+  </fieldset>
+  
+</form>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
